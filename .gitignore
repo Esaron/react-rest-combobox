@@ -1,0 +1,26 @@
+# ignore all dotfiles by except git, babel, and npm specific ones
+.*
+!.gitignore
+!.git*
+!.npmignore
+!.babelrc
+
+# ignore all temporary files and bak files
+*.bak
+*~
+
+# ignore .iml files for IDEA
+*.iml
+/.idea
+
+# ignore compilation related directories in the root of the project
+/build
+/dist
+/lib
+
+# ignore node modules and files
+/node_modules
+npm-debug.log
+
+# ignore npm bundles
+bundle.*
